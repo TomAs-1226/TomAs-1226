@@ -42,23 +42,20 @@ I’m a student engineer building robotics and AI systems end-to-end — from PC
 
 ---
 
-## 📁 Repository Map (fill in as they go public)
+## 📁 Repository Map 
 
 - **Robotics**
-  - `2025-exodus-code` — Reefscape robot (swerve, elevator, climber, autos). *(link)*
-  - `pathplanner-profiles` — Paths, events, and reusable auto commands. *(link)*
+  - `2025-exodus-code` — Reefscape robot (swerve, elevator, climber, autos). 
+  - `pathplanner-profiles` — Paths, events, and reusable auto commands. 
 - **Ornimetrics**
-  - `ornimetrics-firmware` — ESP32-S3 firmware & PCB assets. *(link)*
-  - `ornimetrics-ml` — YOLOv11 training, export, and inference helpers. *(link)*
-  - `ornimetrics-app` — Flutter app with dashboards & cloud sync. *(link)*
+  - `ornimetrics-firmware` — Rasp-pi firmware & setup code. 
+  - `ornimetrics-ai` — YOLOv11 training, export, and inference helpers.
+  - `ornimetrics-app` — Flutter app with dashboards & cloud sync. 
 - **Platforms & Utilities**
-  - `sparkhub` — Student project/course platform (Vue + Rust-WASM + Prisma). *(link)*
-  - `edge-infer-tools` — ONNX/TFLite conversion, benchmarks, and profiling. *(link)*
-  - `wpilib-helpers` — Reusable Java utilities for 2025 control loops and telemetry. *(link)*
+  - `sparkhub` — Student project/course platform (Vue + Rust-WASM + Prisma). 
+  - `edge-infer-tools` — ONNX/TFLite conversion, benchmarks, and profiling. 
+  - `wpilib-helpers` — Reusable Java utilities for 2025 control loops and telemetry. 
 
-> **Note:** Build artifacts (e.g., `build/`, `*.pdb`) are intentionally excluded by `.gitignore`. If binaries are _required_, I use Git LFS with clear storage limits.
-
----
 
 ## 📦 Contributing & Branching
 
@@ -67,15 +64,6 @@ I’m a student engineer building robotics and AI systems end-to-end — from PC
 - **PRs:** Include a short test plan and screenshots/logs where helpful.  
 
 I welcome issues and thoughtful PRs that include context and measurable outcomes.
-
----
-
-## 🗺️ Roadmap (selected)
-
-- Robotics: refine L4 eject power and elevator motion constraints; add AprilTag alignment option in autos.
-- Ornimetrics: edge-accel inference (optional Edge-TPU), dataset tooling, species-specific tasks.
-- SparkHub: publishing workflow for courses, permissioned events, and moderation dashboards.
-- Utilities: expand WPILib helper library and documentation examples.
 
 ---
 
